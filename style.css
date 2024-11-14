@@ -1,3 +1,14 @@
+
+.input-field {
+    background-color: yellow;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
 .blog-area {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -5,4 +16,5 @@
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+
 }
