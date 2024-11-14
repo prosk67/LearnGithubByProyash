@@ -8,7 +8,7 @@
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-
+}
 .blog-area {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
