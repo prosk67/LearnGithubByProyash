@@ -2,6 +2,8 @@
 .input-field {
     background-color: yellow;
     background-color: #04AA6D;
+    position: relative;
+    width: 100px;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -10,11 +12,22 @@
     cursor: pointer;
 }
 .blog-area {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: inline block;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
     gap: 2rem;
     padding: 2rem;
-    max-width: 1200px;
     margin: 0 auto;
+
+}
+.submit-btn {
+    font-size: 24px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid  cyan ;
+
 
 }
