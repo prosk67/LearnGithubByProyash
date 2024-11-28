@@ -12,7 +12,7 @@
     cursor: pointer;
 }
 .blog-area {
-    display: inline block;
+    display: flex;
     flex-direction: row;
     width: 100%;
     position: relative;
