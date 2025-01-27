@@ -6,6 +6,5 @@ const c = a + b;
 
 let cars= ["Saab", "Volvo", "BMW"];
 var text = "";
-for (let i = 0; i < cars.length; i++) {
-    text += cars[i] + " ";
-  }
+let obj = {name: "John", age: 30, city: "New York"};
+let obj2 = {name: "Doe", age: 31, city: "California"};
